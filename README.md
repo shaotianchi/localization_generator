@@ -9,3 +9,7 @@ localization_generator
   "${SRCROOT}/${PRODUCT_NAME}/LocalizationGenerator.sh"
   ```
 * build project
+* script will create `[ProjectName]String.h` and `[ProjectName]String.m` in your project folder
+
+## Notice
+You must name your `.string` file as `[ProjectName]Localization.string`
